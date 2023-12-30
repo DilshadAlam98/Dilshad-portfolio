@@ -24,3 +24,6 @@ String protfolioSubHeading =
 //
 // const String aboutMeDetail =
 //     'I\'m a Fresh Graduate as Software Engineer from Quanrt University, UK. I have been developing mobile apps for over 4 years now. I have worked in teams for various startups and helped them in launching their prototypes and got valuable learning experience. Been a CEO/Co-Founder of Onyxsio, Sri Lanka. Currently working as an Associate Software Engineer at Onyxsio.';
+
+String whoIam =
+    "Hey, I'm a passionate Flutter Developer with a B.Tech in Computer Science. I embarked on my journey in mobile app development in 2021, driven by a fervor to create immersive and realistic experiences through technology";
