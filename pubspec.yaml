@@ -29,6 +29,8 @@ dependencies:
   animated_text_kit: ^4.2.1
   scrollable_positioned_list: ^0.3.5
 
+  flutter_launcher_icons: ^0.13.1
+
   # web related
   # flutter_html: any
   # url_strategy: ^0.2.0
@@ -38,6 +40,21 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/imgs/portfolio.png"
+  min_sdk_android: 29 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "assets/imgs/portfolio.png"
+  windows:
+    generate: true
+    image_path: "assets/imgs/portfolio.png"
+  macos:
+    generate: true
+    image_path: "assets/imgs/portfolio.png"
 
 flutter:
   uses-material-design: true
