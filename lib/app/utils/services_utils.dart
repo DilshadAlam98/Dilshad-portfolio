@@ -22,7 +22,7 @@ List<ServicesUtils> servicesUtils = [
   ),
   ServicesUtils(
     name: 'Flutter & Flutter Flow',
-    icon: 'assets/icons/graphic.svg',
+    icon: 'assets/icons/flutterio-icon.svg',
     description: "Are you interested in the great cross-platform development? Let's drive.",
     tool: ['Flutter', 'Flutter Flow'],
   ),
