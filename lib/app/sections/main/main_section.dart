@@ -17,6 +17,7 @@ import 'package:mysite/core/providers/drawer_provider.dart';
 import 'package:mysite/core/providers/scroll_provider.dart';
 import 'package:mysite/core/res/responsive.dart';
 import 'package:mysite/core/theme/cubit/theme_cubit.dart';
+import 'package:mysite/core/util/constants.dart';
 import 'package:provider/provider.dart';
 import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 import 'package:sizer/sizer.dart';
@@ -35,7 +36,25 @@ class MainPage extends StatelessWidget {
     final drawerProvider = Provider.of<DrawerProvider>(context);
     double height = MediaQuery.of(context).size.height;
     double width = MediaQuery.of(context).size.width;
+    final theme = Theme.of(context);
     return Scaffold(
+      floatingActionButton: FloatingActionButton(
+        tooltip: "Hire me",
+        enableFeedback: true,
+        hoverColor: primaryColor,
+        backgroundColor: secondaryColor,
+        onPressed: () {
+          openURL(googleForm);
+        },
+        child: Text(
+          "Hire",
+          style: TextStyle(
+            color: theme.textColor,
+            fontWeight: FontWeight.w700,
+            fontSize: 14,
+          ),
+        ),
+      ),
       key: drawerProvider.key,
       extendBodyBehindAppBar: true,
       appBar: const PreferredSize(

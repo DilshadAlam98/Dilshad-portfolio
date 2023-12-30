@@ -34,3 +34,6 @@ const String profileImage =
 const String upwork = 'https://www.upwork.com/freelancers/~019462c106d3bacd6e';
 // Github Link
 const String whatsapp = 'https://api.whatsapp.com/send?phone=8890782870';
+
+const String googleForm =
+    'https://docs.google.com/forms/d/e/1FAIpQLSe3dY7F9oj358zVbjyapRkZnvchQmadTrUhTYbY5IlZi9o6Ag/viewform';
