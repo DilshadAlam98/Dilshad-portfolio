@@ -22,13 +22,10 @@ class _MobileDrawer extends StatelessWidget {
                   const Divider(),
                   ListTile(
                     leading: Icon(
-                      state.isDarkThemeOn
-                          ? Icons.dark_mode_outlined
-                          : Icons.light_mode,
+                      state.isDarkThemeOn ? Icons.dark_mode_outlined : Icons.light_mode,
                       // color: theme.textColor,
                     ),
-                    title:
-                        Text(state.isDarkThemeOn ? "Light Mode" : "Dark Mode"),
+                    title: Text(state.isDarkThemeOn ? "Light Mode" : "Dark Mode"),
                     trailing: Switch(
                       value: state.isDarkThemeOn,
                       activeColor: theme.primaryColor,
@@ -66,7 +63,7 @@ class _MobileDrawer extends StatelessWidget {
                   ColorChageButton(
                     text: 'RESUME',
                     onTap: () {
-                      openURL(resume);
+                      html.window.open(resume, "pdf");
                     },
                   ),
                 ],

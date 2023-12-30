@@ -1,5 +1,5 @@
 // CV
-const String resume = 'https://drive.google.com/file/d/1bDNNrkQtNVJbXcdwMSx0crQQvAF_nMwV/view?usp=sharing';
+const String resume = 'https://drive.google.com/uc?export=download&id=1-thF-FPM_Fj5hcMVZ-atHGcz7RyKVBlL';
 
 // Github Link
 const String gitHub = 'https://github.com/Shadil-rayeen';
@@ -10,7 +10,7 @@ const String gitHub = 'https://github.com/Shadil-rayeen';
 // Github Link
 // const String youtube = 'https://www.youtube.com/channel/UCXooUY2oL_eqGhTaZn-ExSg';
 // Github Link
-const String linkedin = 'www.linkedin.com/in/dilshad-alam-47635a18a';
+const String linkedin = 'https://www.linkedin.com/in/dilshad-alam-47635a18a/';
 // Github Link
 // const String buymeacoffee = 'https://www.buymeacoffee.com/sudeshnb';
 // Github Link

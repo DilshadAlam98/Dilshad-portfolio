@@ -24,8 +24,7 @@ class ContactDesktop extends StatelessWidget {
           const CustomSectionHeading(text: "\nGet in Touch"),
           Space.y(1.w)!,
           const CustomSectionSubHeading(
-            text:
-                "If you want to avail my services you can contact me at the links below.",
+            text: "If you want to avail my services you can contact me at the links below.",
           ),
           Space.y(2.w)!,
           Container(
@@ -69,8 +68,7 @@ class ContactDesktop extends StatelessWidget {
                     InkWell(
                       onTap: () => openURL(whatsapp),
                       child: Container(
-                        padding: const EdgeInsets.symmetric(
-                            vertical: 5, horizontal: 20),
+                        padding: const EdgeInsets.symmetric(vertical: 5, horizontal: 20),
                         decoration: BoxDecoration(
                             gradient: buttonGradi,
                             // border: Border.all(
