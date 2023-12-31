@@ -108,14 +108,14 @@ class ProjectCardState extends State<ProjectCard> {
                         alignment: Alignment.topRight,
                         child: Container(
                           // margin: const EdgeInsets.symmetric(horizontal: 3, vertical: 3),
-                          padding: const EdgeInsets.symmetric(horizontal: 4, vertical: 2),
+                          padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(3),
                             gradient: pinkpurple,
                           ),
                           child: Text(
                             widget.project.status,
-                            style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w600),
+                            style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w600, color: Colors.white),
                           ),
                         ),
                       )
