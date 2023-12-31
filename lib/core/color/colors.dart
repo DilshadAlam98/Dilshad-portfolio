@@ -37,6 +37,11 @@ const grayBack = LinearGradient(
   end: Alignment.bottomRight,
   colors: [Color(0XFF2E2D36), Color(0XFF11101D)],
 );
+const transparent = LinearGradient(
+  begin: Alignment.topLeft,
+  end: Alignment.bottomRight,
+  colors: [Colors.transparent],
+);
 const grayWhite = LinearGradient(
   begin: Alignment.topLeft,
   end: Alignment.bottomRight,
